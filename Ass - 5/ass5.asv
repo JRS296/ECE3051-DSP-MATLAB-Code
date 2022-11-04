@@ -1,0 +1,4 @@
+%Obtain the output waveforms pertaining to the individual blocks that formulate an
+%Adaptive Differential Pulse Code Modulation scheme given in Figure 1. This
+%modulation scheme forms the essential block of the G.726 ITU transactions for audio
+%compression.

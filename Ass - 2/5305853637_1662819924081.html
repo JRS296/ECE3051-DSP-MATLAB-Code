@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Trabko Chegg Bot</title>
+                            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+                            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+                                integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+                            <style>
+                                .header {
+                                    background-color: #E36F23;
+                                    text-align: center;
+                                    color: white;
+                                    padding: 5px 5px;
+                                    width: 100%;
+                                }
+                                .main {
+                                    font-size: 20px;
+                                }
+    
+                                img {
+                                    max-width: 100%;
+                                    object-fit: contain !important;
+                                }
+    
+                                .container {
+                                    width: 70%;
+                                }
+    
+                                @media (max-width: 575.98px) {
+                                    .container {
+                                        width: 100%;
+                                    }
+                                }
+                            </style>
+                        </head>
+                        <body> 
+    
+                        <a href="http://telegram.me/Trabko_bot"><div style="background-color: yellow; border: 5px solid red;"><center><h3>CLICK HERE TO GET MORE SOLUTIONS</h3></center></div></a>
+                        <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h1>
+                                    <?php echo $title; ?>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <?php echo $content; ?>
+                            </div>
+                        </div>
+                        <div style="border: 10px solid blue; padding: 1em; border-radius: 0.5em;" >
+                        <p><img alt="Frequency analysis of amplitude-modulated discrete"  src="https://d2vlcm61l7u1fs.cloudfront.net/media%2F584%2F584e8730-c497-45e1-b20f-a3331a8bc934%2FphptyX3JJ.png"
+style="height:495px;width:653px;" /></p>
+<p>Use Matlab to solve thsi problem. use fft function.need matlab
+code.</p>
+ 
+                        </div>
+                        </div>
+                        <br />
+                        <br />
+                        <div style="border: 10px solid green; padding: 1em; border-radius: 0.5em;" >
+                        <html>
+ <head></head> 
+ <body> 
+  <p>Matlab Code:</p> 
+  <p>n = 0:255;<br> f1 = 1/18; f2 = 5/128;<br> fc = 50/128;<br> xn = cos(2*pi*f1*n)+cos(2*pi*f2*n);%x[n]<br> xcn = cos(2*pi*fc*n);%xc[n]<br> xam = xn.*xcn;%xam[n]<br> figure(1);<br> subplot(3,1,1);<br> stem(n,xn);<br> subplot(3,1,2);<br> stem(n,xcn);<br> subplot(3,1,3);<br> stem(n,xam);<br> figure(2);<br> dftxam1 = fft(xam(1:128),128);%calculating 128 point dft for 0&lt;=n&lt;=127<br> plot(abs(dftxam1));<br> figure(3);<br> dftxam2 = fft(xam(1:100),128);%calculating 128 point dft for 0&lt;=n&lt;=99<br> plot(abs(dftxam2));<br> figure(4);<br> dftxam3 = fft(xam(1:180),256);%calculating 256 point dft for 0&lt;=n&lt;=179<br> plot(abs(dftxam3));</p> 
+  <p>&nbsp;</p> 
+  <p>Output:</p> 
+  <p>figure(1):<img alt="50
+100
+150
+200
+300
+0.5
+0.5
+50
+100
+150
+200
+300
+50
+100
+150
+200
+250
+" src="https://d2vlcm61l7u1fs.cloudfront.net/media%2F17b%2F17b5f93e-e661-4a4f-94ad-e4a7154db4a1%2FphpXUS3ja.png" style="height:493px;width:1024px;">figure 2:</p> 
+  <p><img alt="35
+30
+25
+20
+15
+20
+40
+60
+80
+100
+120
+140
+" src="https://d2vlcm61l7u1fs.cloudfront.net/media%2F275%2F27581d80-ee01-4c3d-8f8c-149c1ebc90b5%2Fphp4E6Mta.png" style="height:493px;width:1024px;"><img alt="" src="https://d2vlcm61l7u1fs.cloudfront.net/media%2Ff34%2Ff34fba34-8ac2-49d3-9edf-e88ba49ff674%2Fphp6GMpgt.png" style="height:493px;width:1024px;"><img alt="45
+40
+35
+CO
+25
+20
+15
+5
+300
+50
+100
+150
+200
+250
+" src="https://d2vlcm61l7u1fs.cloudfront.net/media%2Fefc%2Fefc653c0-e63e-47d5-adad-1df09c4b37e9%2FphpYc9XyS.png" style="height:493px;width:1024px;"></p>  
+ </body>
+</html> 
+                        </div>
+                        </body>
+                    </html>

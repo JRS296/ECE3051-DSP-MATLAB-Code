@@ -1,0 +1,16 @@
+%SubTask 3 - Determine the signal 𝑥(𝑛) if its Fourier transform is as
+%given in the below figure (Figure shown in final document)
+
+%(Problem Working shown in final Document)
+
+%Inverse Fourier Transform for the given figure:
+% x(n) = 1/pi[2sin(9pi/10) - sin(8pi/10)]; x(0) = 3/10
+
+syms x(n);
+x(n) = 1/pi * (2*sin(9*pi/10) - sin(8*pi/10));
+disp(pi);
+subplot(311),stem(b);
+title('Base Sinusoidal Function');
+xlabel('time');
+ylabel('Magnitude');
+grid;
